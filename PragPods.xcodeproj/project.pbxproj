@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB944CF51F673EC400D54651 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB944CF41F673EC400D54651 /* AppDelegate.swift */; };
+		DB944CF71F673EC400D54651 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB944CF61F673EC400D54651 /* ViewController.swift */; };
+		DB944CFA1F673EC400D54651 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB944CF81F673EC400D54651 /* Main.storyboard */; };
+		DB944CFC1F673EC400D54651 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB944CFB1F673EC400D54651 /* Assets.xcassets */; };
+		DB944CFF1F673EC400D54651 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB944CFD1F673EC400D54651 /* LaunchScreen.storyboard */; };
+		DB944D0A1F673EC400D54651 /* PragPodsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB944D091F673EC400D54651 /* PragPodsTests.swift */; };
+		DB944D151F673EC400D54651 /* PragPodsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB944D141F673EC400D54651 /* PragPodsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB944D061F673EC400D54651 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB944CE91F673EC400D54651 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB944CF01F673EC400D54651;
+			remoteInfo = PragPods;
+		};
+		DB944D111F673EC400D54651 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB944CE91F673EC400D54651 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB944CF01F673EC400D54651;
+			remoteInfo = PragPods;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB944CF11F673EC400D54651 /* PragPods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PragPods.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB944CF41F673EC400D54651 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB944CF61F673EC400D54651 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB944CF91F673EC400D54651 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB944CFB1F673EC400D54651 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB944CFE1F673EC400D54651 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB944D001F673EC400D54651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB944D051F673EC400D54651 /* PragPodsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PragPodsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB944D091F673EC400D54651 /* PragPodsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PragPodsTests.swift; sourceTree = "<group>"; };
+		DB944D0B1F673EC400D54651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB944D101F673EC400D54651 /* PragPodsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PragPodsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB944D141F673EC400D54651 /* PragPodsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PragPodsUITests.swift; sourceTree = "<group>"; };
+		DB944D161F673EC400D54651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB944CEE1F673EC400D54651 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB944D021F673EC400D54651 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB944D0D1F673EC400D54651 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB944CE81F673EC400D54651 = {
+			isa = PBXGroup;
+			children = (
+				DB944CF31F673EC400D54651 /* PragPods */,
+				DB944D081F673EC400D54651 /* PragPodsTests */,
+				DB944D131F673EC400D54651 /* PragPodsUITests */,
+				DB944CF21F673EC400D54651 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB944CF21F673EC400D54651 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB944CF11F673EC400D54651 /* PragPods.app */,
+				DB944D051F673EC400D54651 /* PragPodsTests.xctest */,
+				DB944D101F673EC400D54651 /* PragPodsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB944CF31F673EC400D54651 /* PragPods */ = {
+			isa = PBXGroup;
+			children = (
+				DB944CF41F673EC400D54651 /* AppDelegate.swift */,
+				DB944CF61F673EC400D54651 /* ViewController.swift */,
+				DB944CF81F673EC400D54651 /* Main.storyboard */,
+				DB944CFB1F673EC400D54651 /* Assets.xcassets */,
+				DB944CFD1F673EC400D54651 /* LaunchScreen.storyboard */,
+				DB944D001F673EC400D54651 /* Info.plist */,
+			);
+			path = PragPods;
+			sourceTree = "<group>";
+		};
+		DB944D081F673EC400D54651 /* PragPodsTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB944D091F673EC400D54651 /* PragPodsTests.swift */,
+				DB944D0B1F673EC400D54651 /* Info.plist */,
+			);
+			path = PragPodsTests;
+			sourceTree = "<group>";
+		};
+		DB944D131F673EC400D54651 /* PragPodsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB944D141F673EC400D54651 /* PragPodsUITests.swift */,
+				DB944D161F673EC400D54651 /* Info.plist */,
+			);
+			path = PragPodsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB944CF01F673EC400D54651 /* PragPods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB944D191F673EC400D54651 /* Build configuration list for PBXNativeTarget "PragPods" */;
+			buildPhases = (
+				DB944CED1F673EC400D54651 /* Sources */,
+				DB944CEE1F673EC400D54651 /* Frameworks */,
+				DB944CEF1F673EC400D54651 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PragPods;
+			productName = PragPods;
+			productReference = DB944CF11F673EC400D54651 /* PragPods.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB944D041F673EC400D54651 /* PragPodsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB944D1C1F673EC400D54651 /* Build configuration list for PBXNativeTarget "PragPodsTests" */;
+			buildPhases = (
+				DB944D011F673EC400D54651 /* Sources */,
+				DB944D021F673EC400D54651 /* Frameworks */,
+				DB944D031F673EC400D54651 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB944D071F673EC400D54651 /* PBXTargetDependency */,
+			);
+			name = PragPodsTests;
+			productName = PragPodsTests;
+			productReference = DB944D051F673EC400D54651 /* PragPodsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB944D0F1F673EC400D54651 /* PragPodsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB944D1F1F673EC400D54651 /* Build configuration list for PBXNativeTarget "PragPodsUITests" */;
+			buildPhases = (
+				DB944D0C1F673EC400D54651 /* Sources */,
+				DB944D0D1F673EC400D54651 /* Frameworks */,
+				DB944D0E1F673EC400D54651 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB944D121F673EC400D54651 /* PBXTargetDependency */,
+			);
+			name = PragPodsUITests;
+			productName = PragPodsUITests;
+			productReference = DB944D101F673EC400D54651 /* PragPodsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB944CE91F673EC400D54651 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Natalie Marion";
+				TargetAttributes = {
+					DB944CF01F673EC400D54651 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					DB944D041F673EC400D54651 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DB944CF01F673EC400D54651;
+					};
+					DB944D0F1F673EC400D54651 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DB944CF01F673EC400D54651;
+					};
+				};
+			};
+			buildConfigurationList = DB944CEC1F673EC400D54651 /* Build configuration list for PBXProject "PragPods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB944CE81F673EC400D54651;
+			productRefGroup = DB944CF21F673EC400D54651 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB944CF01F673EC400D54651 /* PragPods */,
+				DB944D041F673EC400D54651 /* PragPodsTests */,
+				DB944D0F1F673EC400D54651 /* PragPodsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB944CEF1F673EC400D54651 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB944CFF1F673EC400D54651 /* LaunchScreen.storyboard in Resources */,
+				DB944CFC1F673EC400D54651 /* Assets.xcassets in Resources */,
+				DB944CFA1F673EC400D54651 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB944D031F673EC400D54651 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB944D0E1F673EC400D54651 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB944CED1F673EC400D54651 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB944CF71F673EC400D54651 /* ViewController.swift in Sources */,
+				DB944CF51F673EC400D54651 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB944D011F673EC400D54651 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB944D0A1F673EC400D54651 /* PragPodsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB944D0C1F673EC400D54651 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB944D151F673EC400D54651 /* PragPodsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB944D071F673EC400D54651 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB944CF01F673EC400D54651 /* PragPods */;
+			targetProxy = DB944D061F673EC400D54651 /* PBXContainerItemProxy */;
+		};
+		DB944D121F673EC400D54651 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB944CF01F673EC400D54651 /* PragPods */;
+			targetProxy = DB944D111F673EC400D54651 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB944CF81F673EC400D54651 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB944CF91F673EC400D54651 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB944CFD1F673EC400D54651 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB944CFE1F673EC400D54651 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB944D171F673EC400D54651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB944D181F673EC400D54651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB944D1A1F673EC400D54651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PragPods/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asuahsahua.PragPods;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DB944D1B1F673EC400D54651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PragPods/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asuahsahua.PragPods;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DB944D1D1F673EC400D54651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PragPodsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asuahsahua.PragPodsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PragPods.app/PragPods";
+			};
+			name = Debug;
+		};
+		DB944D1E1F673EC400D54651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PragPodsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asuahsahua.PragPodsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PragPods.app/PragPods";
+			};
+			name = Release;
+		};
+		DB944D201F673EC400D54651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PragPodsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asuahsahua.PragPodsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PragPods;
+			};
+			name = Debug;
+		};
+		DB944D211F673EC400D54651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PragPodsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asuahsahua.PragPodsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PragPods;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB944CEC1F673EC400D54651 /* Build configuration list for PBXProject "PragPods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB944D171F673EC400D54651 /* Debug */,
+				DB944D181F673EC400D54651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB944D191F673EC400D54651 /* Build configuration list for PBXNativeTarget "PragPods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB944D1A1F673EC400D54651 /* Debug */,
+				DB944D1B1F673EC400D54651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB944D1C1F673EC400D54651 /* Build configuration list for PBXNativeTarget "PragPodsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB944D1D1F673EC400D54651 /* Debug */,
+				DB944D1E1F673EC400D54651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB944D1F1F673EC400D54651 /* Build configuration list for PBXNativeTarget "PragPodsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB944D201F673EC400D54651 /* Debug */,
+				DB944D211F673EC400D54651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB944CE91F673EC400D54651 /* Project object */;
+}
