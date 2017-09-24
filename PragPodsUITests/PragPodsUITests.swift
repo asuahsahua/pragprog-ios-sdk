@@ -31,6 +31,18 @@ class PragPodsUITests: XCTestCase {
     func testExample() {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        let app = XCUIApplication()
+        let playButton = app.buttons["Play"]
+        playButton.tap()
+        app.staticTexts["CocoaConf001.m4a"].tap()
+        app.staticTexts["0:00"].tap()
+        playButton.tap()
+        playButton.tap()
+        playButton.tap()
+        playButton.tap()
+        app.otherElements.containing(.staticText, identifier:"0:00").element.tap()
+        
     }
     
 }

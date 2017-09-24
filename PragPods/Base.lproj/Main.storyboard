@@ -1,26 +1,80 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PlayerViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="PragPods" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fMp-fD-sz5">
+                                <rect key="frame" x="20" y="20" width="55" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Play"/>
+                                <connections>
+                                    <action selector="handlePlayPausedTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XPR-gZ-vzV"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="right" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0:00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sDc-d3-J5F">
+                                <rect key="frame" x="330" y="26.666666666666671" width="64" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Track Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g2D-eY-k0t">
+                                <rect key="frame" x="20" y="76" width="374" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="1" verticalHuggingPriority="1" image="default-logo" translatesAutoresizingMaskIntoConstraints="NO" id="0n1-Q0-qSC">
+                                <rect key="frame" x="20" y="97" width="374" height="639"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="fMp-fD-sz5" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="065-Ql-spy"/>
+                            <constraint firstItem="sDc-d3-J5F" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="1k3-gt-8nJ"/>
+                            <constraint firstItem="g2D-eY-k0t" firstAttribute="leading" secondItem="fMp-fD-sz5" secondAttribute="leading" id="1oB-HC-bRa"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="0n1-Q0-qSC" secondAttribute="bottom" id="3bd-0q-ApT"/>
+                            <constraint firstItem="g2D-eY-k0t" firstAttribute="top" secondItem="fMp-fD-sz5" secondAttribute="bottom" constant="8" id="HiT-vr-E2h"/>
+                            <constraint firstItem="0n1-Q0-qSC" firstAttribute="top" secondItem="g2D-eY-k0t" secondAttribute="bottom" id="O8s-4T-988"/>
+                            <constraint firstItem="fMp-fD-sz5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="VjR-yr-Afu"/>
+                            <constraint firstItem="sDc-d3-J5F" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="X9W-wJ-tJi"/>
+                            <constraint firstItem="0n1-Q0-qSC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="XLo-ed-IPP"/>
+                            <constraint firstItem="sDc-d3-J5F" firstAttribute="centerY" secondItem="fMp-fD-sz5" secondAttribute="centerY" id="aYJ-F9-gRa"/>
+                            <constraint firstItem="fMp-fD-sz5" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="bbC-aq-saB"/>
+                            <constraint firstItem="fMp-fD-sz5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="cYT-7k-E8c"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="g2D-eY-k0t" secondAttribute="trailing" id="fEL-qi-ei2"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="0n1-Q0-qSC" secondAttribute="trailing" id="j2n-Gh-wNl"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="logoView" destination="0n1-Q0-qSC" id="8l1-dH-g7m"/>
+                        <outlet property="playPauseButton" destination="fMp-fD-sz5" id="IIj-mL-WSP"/>
+                        <outlet property="titleLabel" destination="g2D-eY-k0t" id="gdh-0o-1Dc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="118.20652173913044" y="81.159420289855078"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="default-logo" width="446" height="446"/>
+    </resources>
 </document>
