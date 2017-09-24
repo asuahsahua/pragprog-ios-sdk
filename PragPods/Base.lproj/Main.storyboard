@@ -29,8 +29,8 @@
                                     <action selector="handlePlayPausedTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XPR-gZ-vzV"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="right" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0:00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sDc-d3-J5F">
-                                <rect key="frame" x="330" y="26.666666666666671" width="64" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="right" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0:00:00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sDc-d3-J5F">
+                                <rect key="frame" x="285" y="26.666666666666671" width="109" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -66,6 +66,7 @@
                     <connections>
                         <outlet property="logoView" destination="0n1-Q0-qSC" id="8l1-dH-g7m"/>
                         <outlet property="playPauseButton" destination="fMp-fD-sz5" id="IIj-mL-WSP"/>
+                        <outlet property="timeLabel" destination="sDc-d3-J5F" id="Po3-vu-lOc"/>
                         <outlet property="titleLabel" destination="g2D-eY-k0t" id="gdh-0o-1Dc"/>
                     </connections>
                 </viewController>
