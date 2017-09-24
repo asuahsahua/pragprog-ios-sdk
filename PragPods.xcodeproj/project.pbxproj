@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A7A02B82817472E414AB22C /* PodcastFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7A08D93B6489C63229F1A1 /* PodcastFeed.swift */; };
+		7A7A047F50A94DD16F698501 /* PodcastEpisodeParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7A04CCCC0CDA9B22200275 /* PodcastEpisodeParser.swift */; };
+		7A7A04D924D5B8E2C869A7B6 /* PodcastFeedParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7A0B2A7018E0D5A8BFF875 /* PodcastFeedParser.swift */; };
+		7A7A0AEB0C72E38F9C2DB688 /* PodcastEpisode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A7A017ACCC25D65E6F2C74B /* PodcastEpisode.swift */; };
 		DB944CF51F673EC400D54651 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB944CF41F673EC400D54651 /* AppDelegate.swift */; };
 		DB944CF71F673EC400D54651 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB944CF61F673EC400D54651 /* ViewController.swift */; };
 		DB944CFA1F673EC400D54651 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB944CF81F673EC400D54651 /* Main.storyboard */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A7A017ACCC25D65E6F2C74B /* PodcastEpisode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PodcastEpisode.swift; sourceTree = "<group>"; };
+		7A7A04CCCC0CDA9B22200275 /* PodcastEpisodeParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PodcastEpisodeParser.swift; sourceTree = "<group>"; };
+		7A7A08D93B6489C63229F1A1 /* PodcastFeed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PodcastFeed.swift; sourceTree = "<group>"; };
+		7A7A0B2A7018E0D5A8BFF875 /* PodcastFeedParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PodcastFeedParser.swift; sourceTree = "<group>"; };
 		DB944CF11F673EC400D54651 /* PragPods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PragPods.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB944CF41F673EC400D54651 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB944CF61F673EC400D54651 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +111,10 @@
 				DB944CFB1F673EC400D54651 /* Assets.xcassets */,
 				DB944CFD1F673EC400D54651 /* LaunchScreen.storyboard */,
 				DB944D001F673EC400D54651 /* Info.plist */,
+				7A7A0B2A7018E0D5A8BFF875 /* PodcastFeedParser.swift */,
+				7A7A08D93B6489C63229F1A1 /* PodcastFeed.swift */,
+				7A7A017ACCC25D65E6F2C74B /* PodcastEpisode.swift */,
+				7A7A04CCCC0CDA9B22200275 /* PodcastEpisodeParser.swift */,
 			);
 			path = PragPods;
 			sourceTree = "<group>";
@@ -265,6 +277,10 @@
 			files = (
 				DB944CF71F673EC400D54651 /* ViewController.swift in Sources */,
 				DB944CF51F673EC400D54651 /* AppDelegate.swift in Sources */,
+				7A7A04D924D5B8E2C869A7B6 /* PodcastFeedParser.swift in Sources */,
+				7A7A02B82817472E414AB22C /* PodcastFeed.swift in Sources */,
+				7A7A0AEB0C72E38F9C2DB688 /* PodcastEpisode.swift in Sources */,
+				7A7A047F50A94DD16F698501 /* PodcastEpisodeParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
