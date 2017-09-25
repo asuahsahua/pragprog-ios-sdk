@@ -18,6 +18,8 @@
 		DB944CFF1F673EC400D54651 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB944CFD1F673EC400D54651 /* LaunchScreen.storyboard */; };
 		DB944D0A1F673EC400D54651 /* PragPodsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB944D091F673EC400D54651 /* PragPodsTests.swift */; };
 		DB944D151F673EC400D54651 /* PragPodsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB944D141F673EC400D54651 /* PragPodsUITests.swift */; };
+		DBAF60B31F781FD500E80744 /* EpisodeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAF60B21F781FD500E80744 /* EpisodeListViewController.swift */; };
+		DBAF60B51F79603200E80744 /* EpisodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAF60B41F79603200E80744 /* EpisodeCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		DB944D101F673EC400D54651 /* PragPodsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PragPodsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB944D141F673EC400D54651 /* PragPodsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PragPodsUITests.swift; sourceTree = "<group>"; };
 		DB944D161F673EC400D54651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBAF60B21F781FD500E80744 /* EpisodeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeListViewController.swift; sourceTree = "<group>"; };
+		DBAF60B41F79603200E80744 /* EpisodeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,8 @@
 				7A7A08D93B6489C63229F1A1 /* PodcastFeed.swift */,
 				7A7A017ACCC25D65E6F2C74B /* PodcastEpisode.swift */,
 				7A7A04CCCC0CDA9B22200275 /* PodcastEpisodeParser.swift */,
+				DBAF60B21F781FD500E80744 /* EpisodeListViewController.swift */,
+				DBAF60B41F79603200E80744 /* EpisodeCell.swift */,
 			);
 			path = PragPods;
 			sourceTree = "<group>";
@@ -280,6 +286,8 @@
 				7A7A04D924D5B8E2C869A7B6 /* PodcastFeedParser.swift in Sources */,
 				7A7A02B82817472E414AB22C /* PodcastFeed.swift in Sources */,
 				7A7A0AEB0C72E38F9C2DB688 /* PodcastEpisode.swift in Sources */,
+				DBAF60B51F79603200E80744 /* EpisodeCell.swift in Sources */,
+				DBAF60B31F781FD500E80744 /* EpisodeListViewController.swift in Sources */,
 				7A7A047F50A94DD16F698501 /* PodcastEpisodeParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
